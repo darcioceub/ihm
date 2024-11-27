@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*mudar a cor*/
+body{
+
+    background-color: #0a0808;
+    color: #fbf6f6;
+    
+}
+
+/* Define o estilo para a classe 'apresentacao' */
+.apresentacao {
+    /* Define margens superior e inferior como 10% e margens esquerda e direita como 15% */
+    padding: 3% 15%;
+    
+    /* Configura o display flex para o container 'apresentacao' */
+    display: flex;
+    
+    /* Alinha os itens flexíveis verticalmente ao centro dentro do container 'apresentacao' */
+    align-items: center;
+    
+    /* Distribui o espaço restante entre os itens flexíveis no container 'apresentacao' */
+    justify-content: space-between;
+}
+
+/* Define o estilo para a classe 'apresentacao__conteudo' */
+.apresentacao_conteudo {
+    /* Define a largura do elemento como 615px */
+    width: 715px;
+
+    /*Define o layout flexível para os elementos filhos, organizados em coluna */
+    display: flex;
+    flex-direction: column;
+
+    /* Define o espaçamento entre os elementos filhos */
+    gap: 30px;
+}
+
+/* Define o estilo para a classe 'apresentacao__conteudo__titulo' */
+.apresentacao__conteudo__titulo {
+    /* Define o tamanho da fonte como 36 pixels */
+    font-size: 32px;
+
+    /* Define a família da fonte como 'Krona One', uma fonte sans-serif */
+    font-family: 'Krona One', sans-serif;
+   
+    /* Define a cor do texto como azul (#007bff) */
+    color: #9D22FD;
+}
+
+/* Define o estilo para a classe 'apresentacao__conteudo__texto' */
+.apresentacao__conteudo__texto {
+    /* Define o tamanho da fonte como 24 pixels */
+    font-size: 24px;
+
+    /* Define a família da fonte como 'Montserrat', uma fonte sans-serif */
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Define o estilo para a classe 'rede_social_links' */
+.rede_social_links {
+    /* Define o layout flexível para os elementos filhos */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    
+    /* Alinha os itens ao longo do eixo principal com espaçamento uniforme entre eles */
+    justify-content: space-between;
+}
+
+/* Define o estilo para a classe 'link_redesocial' */
+
+.link_redesocial {
+    /* Define a cor de fundo como azul claro (#22D4FD) */
+    /* background-color: #22D4FD; */
+    display: flex;
+    border: 2px solid #9D22FD;
+    justify-content: center;
+    gap: 16px;
+    /* Define a largura do elemento como 280 pixels */
+    width: 280px;
+
+    /* Centraliza o texto horizontalmente dentro do elemento */
+    text-align: center;
+
+    /* Adiciona cantos arredondados ao elemento com raio de borda de 16 pixels */
+    border-radius: 8px;
+    
+
+    /* Define o tamanho da fonte como 24 pixels e negrito */
+    font-size: 24px;
+    font-weight: 600;
+
+    /* Adiciona preenchimento interno de 21.5 pixels na parte superior e inferior e 0 na esquerda e direita */
+    padding: 21.5px 0;
+
+    /* Remove a decoração de sublinhado padrão de links */
+    text-decoration: none;
+
+    /* Define a cor do texto como preto (#000000) */
+    color: #f6f6f6;
+
+    /* Define a família da fonte como 'Montserrat', uma fonte sans-serif */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo_rede_social{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.link_redesocial:hover{
+    background-color: #272727;
+}
+
+.rodape{
+    background-color: #9D22FD;
+    color: #0a0808;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    padding: 28px;
+}
+
+.nav_link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #9D22FD;
+	text-decoration: none;
+
+}
+
+.header{
+    padding:2% 0% 0% 15%;
+}
+
+.nav_pai{
+    display: flex;
+    gap:40px
+}
